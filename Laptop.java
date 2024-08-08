@@ -5,8 +5,8 @@ package HW_DB_NOTEBOOKS;
  */
 public class Laptop {
     private String model;
-    private int ram; //  GB
-    private int storage; //  GB
+    private int ram; 
+    private int storage; 
     private String os;
     private String brand;
 
@@ -18,9 +18,7 @@ public class Laptop {
         this.brand = brand;
     }
 
-//    public String getModel() {// model используется для просмотра, не для поиска
-//        return model;
-//    }
+
     public int getRam() {
         return ram;
     }
